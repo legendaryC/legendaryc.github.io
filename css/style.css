@@ -1,9 +1,11 @@
-/* breadcrumbs_block
+/* breadcrumbs_block intro
 separator home separator breadcrumbs_block_1
+navbar collapse
     Theme Name: Lonely  separator
     Theme URL: https://bootstrapmade.com/free-html-bootstrap-template-lonely/
     Author: BootstrapMade
     Author URL: https://bootstrapmade.com headOfBREADCRUMBS
+    navbar-header
 */
 /* ==== Google font ==== */
 @import url(https://fonts.googleapis.com/css?family=Varela+Round|Open+Sans:400,300,600,400italic,700);
@@ -173,7 +175,9 @@ img.img-responsive {
     z-index: 999;
 }
 
-
+#about{
+    padding-top:78px;
+}
 #loaderInner {
     background:#ffffff url(../img/spinner.gif) center center no-repeat;
     height: 60px;
@@ -310,6 +314,7 @@ hr {
 	position:relative;
 	background: url(../img/bg1.jpg) no-repeat top center;
 	background-size: cover;
+    height: 100%;
 }
 
 #intro.intro {
@@ -1121,8 +1126,11 @@ a.btn:hover {
 	}
 }
 
-@media (max-width:480px) {
 
+@media (max-width:480px) {
+#about{
+    padding-top:51px;
+}
 	.navbar-custom .nav.navbar-nav {
     background-color: rgba(255,255,255,.4);
 	}
@@ -1143,6 +1151,9 @@ a.btn:hover {
 
 
 @media (max-width: 767px) {
+    #about{
+    padding-top:51px;
+}
     .container {padding-left:15px; padding-right:15px;}
 
 
