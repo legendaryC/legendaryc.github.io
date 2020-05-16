@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Jian's Blog</title>
+
+  <!-- CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="css/nivo-lightbox.css" rel="stylesheet" />
+  <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+  <link href="css/owl.carousel.css" rel="stylesheet" media="screen" />
+  <link href="css/owl.theme.css" rel="stylesheet" media="screen" />
+  <link href="css/animate.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="color/default.css" rel="stylesheet">
+  <link href="https://cdn.bootcss.com/font-awesome/5.8.0/css/all.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+      #blog{
+        margin-top:50px;
+      }
+      #myUl{
+    list-style:none;
+      }
+    </style>
+</head>
+
+  <!-- /Section: intro -->
+
+
+  <!-- BREADCRUMBS -->
+
+  <section id="headOfBREADCRUMBS">
+    <!-- Navigation -->
+    <div id="navigation">
+      <nav class="navbar navbar-custom" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                                                  <i class="fa fa-bars"></i>
+                                                  </button>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="./index.html#intro">Home</a></li>
+                  <li><a href="./index.html#headOfBREADCRUMBS">My Blog</a></li>
+                  <li><a href="./index.html#about">About Me</a></li>
+                  <li><a href="./index.html#interests">My Interests</a></li>
+                </ul>
+              </div>
+              <!-- /.Navbar-collapse -->
+
+            </div>
+          </div>
+        </div>
+        <!-- /.container -->
+      </nav>
+    </div>
+    <!-- /Navigation -->
+  <!--  <div style="height:51px">
+    </div>-->
+    <div class="breadcrumbs_block clearfix parallax">
+    <div class="container center">
+      <h2><b>My</b> Blog</h2>
+    </div>
+  </div>
+  </section><!-- //BREADCRUMBS -->
+
+  <section id="blog">
+
+    <!-- CONTAINER -->
+    <div class="container">
+
+      <!-- ROW -->
+      <div class="row">
+
+        <div class="blog_block col-lg-9 col-md-9 padbot50">
+
+          <!-- SINGLE BLOG POST -->
+          <div class="single_blog_post clearfix" data-animated="fadeInUp">
+            <div class="single_blog_post_descr">
+              <div class="single_blog_post_date">JANUARY 23 | 21:30</div>
+              <div class="single_blog_post_title">Demonstration of Generating a Bottleneck Steiner Tree in Euclidean Plane</div>
+              <ul class="single_blog_post_info">
+                <li><a href="javascript:void(0);" >Admin</a></li>
+                <li><a href="javascript:void(0);" >Creative</a></li>
+                <li><a href="javascript:void(0);" >0 Comments</a></li>
+              </ul>
+            </div>
+            <div class="single_blog_post_img"><img src="img/blog/2.png" alt="" /></div>
+
+            <div class="single_blog_post_content">
+              <h4  align="center" class="margbot50">deployed on Github Pages: <a href="https://legendaryc.github.io/GBST/"><i class="fas fa-door-open fa-1x"></i></a>
+    </h4>
+              <p  class="margbot50">The bottleneck k-Steiner tree problem is described as follows: As n points and a
+positive integer k are given, it’s required to find a Steiner tree that joins n points with at most k Steiner points for minimizing the longest edge of this Steiner tree. L. Wang and D.-Z. Du [1] demonstrate an approximate performance ratio of 2 for bottleneck Steiner tree problem in Euclidean plane. And an algorithm for the problem with time complexity of O(n𝑙𝑜𝑔 𝑛+kn) is given. In this study, a Web application, called GBST, has been created for simulating the problem and demonstrating the algorithm, and the algorithm is optimized by introducing the Heap. The time complexity of the optimized algorithm is O(n𝑙𝑜𝑔 𝑛+k𝑙𝑜𝑔 𝑛), and the optimized algorithm can be applied more efficiently. Additionally, the implementation of the GBST can be directly applied in assistance teaching of undergraduate and postgraduate students.</p>
+              <p class="margbot30">In the design of wireless communication networks, with the limit of the project’s budget, we suppose that the n local base stations are reused and the k new stations plan to be built in the area. However, n local base stations are located at the given points in the plane, and their distances between them have a trouble with the quality of communication because of signals’ missing with a long distance. Other k stations are aiming for improving the quality of communication by adding to the plane. How to choose locations for other k stations to minimize the longest distance between stations is the problem.</p>
+              <p class="margbot40">This problem can be descripted as the following bottleneck Steiner tree problem: Given a set P = {𝑝<SUB>1</SUB>, 𝑝<SUB>2</SUB>,..., 𝑝<SUB>n</SUB>} of n terminals and a positive integer k, the goal is to find a Steiner tree with at most k Steiner points such that the length of the longest edges in the tree is minimized.</p>
+<p class="margbot40">However, the conventional Steiner tree problem has been proved to be NP-hard [2] which drives many scientists to find an optimal approximation. Then, a polynomial-time approximation scheme (PTAS) [3] for the conventional Steiner tree problem in the Euclidean plane is introduced by Arora, which may be the best one.</p>
+<p class="margbot40">Covering the areas of VLSI routing, wireless communication and Evolutionary Trees, the Steiner tree problem has been deeply discovered and researched, which often require some modifications to the classic Steiner tree problem with requiring new techniques. Therefore, the study of the variant of the Steiner tree has become a hot technology topic in recent years.</p>
+<p class="margbot40">L. Wang and D.-Z. Du demonstrate an approximate performance ratio of 2 for the Euclidean plane bottleneck Steiner tree algorithm. And an algorithm for the problem with time complexity of O(n𝑙𝑜𝑔 𝑛+kn ) is given. However, the algorithm can be optimized by introducing the Heap. The time complexity of the optimized algorithm is O(n𝑙𝑜𝑔 𝑛+k𝑙𝑜𝑔 𝑛), and the optimized algorithm can be applied more efficiently. The algorithm is decomposed into three steps:
+<ul style="margin-left:50px">
+  <li>The n points are put on the plane by their co-ordinates and Delaunay triangulation algorithm
+is applied for pre-processing them.</li>
+<li>Kruskal algorithm and Prim algorithm are respectively applied to find the Minimum Spanning
+Tree of that with different Time Complexity. Additionally, Prim algorithm is optimized by
+Minimum Heap.</li>
+<li> <i>k</i> Steiner points are put on the edge with largest value after adding all edges to a Maximum
+Heap.</li>
+</ul>
+</p>
+<p class="margbot40">Additionally, in each step, its algorithms are analyzed and compared by Time Complexity and
+their time-consuming curves. So, the algorithm gets optimized.
+</p>
+<p class="margbot40">To be pending....</p>
+
+<p class="margbot40"><h3>Reference:</h3>
+<ul style="margin-left:50px">
+  <li>[1] L.Wang and D.-Z Du, Approximations for a Bottleneck Steiner Tree Problem. Agorithmiea,  vo1.32, PP.554-561, 2002.</li>
+<li>[2] Nachshon Cohen, Zeev Nutov, Approximating Steiner trees and forests with minimum. number of Steiner points, Journal of Computer and System Sciences, Volume 98, December 2018, Pages 53-64.</li>
+<li>[3] Zhang-Hua Fu, Jin-Kao Hao, Knowledge-guided local search for the prize-collecting Steiner tree problem in graphs, Knowledge-Based Systems, Volume 128, 15 July 2017, Pages 78-9.</li>
+</ul>
+</p>
+            </div>
+
+          </div><!-- //SINGLE BLOG POST -->
+
+
+          <!-- SINGLE BLOG POST TAG -->
+          <div class="single_blog_post_tags margbot50" data-animated="fadeInUp">
+            <ul>
+              <li><a href="javascript:void(0);" >React</a></li>
+              <li><a href="javascript:void(0);" >Algorithm</a></li>
+              <li><a href="javascript:void(0);" >Bottleneck Steiner Tree</a></li>
+              <li><a href="javascript:void(0);" >Education</a></li>
+
+            </ul>
+          </div><!-- //SINGLE BLOG POST TAG -->
+
+          <hr>
+
+
+
+        </div><!-- //BLOG BLOCK -->
+
+
+
+        <!-- SIDEBAR -->
+        <div class="sidebar col-lg-3 col-md-3 padbot50">
+
+          <!-- META WIDGET -->
+          <div class="sidepanel widget_meta">
+            <ul id="myUl">
+              <li><a href="javascript:void(0);" >Projects</a></li>
+              <li><a href="javascript:void(0);" >Notes</a></li>
+            </ul>
+          </div><!-- //META WIDGET -->
+
+
+          <!-- POPULAR POSTS WIDGET -->
+          <div class="sidepanel widget_popular_posts">
+            <h3><b>Popular</b> Posts</h3>
+            <div class="recent_posts_widget clearfix">
+              <div id="post_item_img_widget" class="post_item_img_widget">
+                <img id="POPULAR" src="img/blog/2.png" alt="" />
+              </div>
+              <div class="post_item_content_widget">
+                <a class="title" href="./blog_detail.html" >Demonstration of Generating a Bottleneck Steiner Tree in Euclidean Plane</a>
+                <ul class="post_item_inf_widget">
+                  <li>JANUARY 23  |  21:30</li>
+                </ul>
+              </div>
+            </div>
+
+          </div><!-- //POPULAR POSTS WIDGET -->
+
+          <hr>
+
+          <!-- POPULAR TAGS WIDGET -->
+          <div class="sidepanel widget_tags">
+            <h3><b>Popular</b> Tags</h3>
+            <ul>
+              <li><a href="javascript:void(0);" >React</a></li>
+              <li><a href="javascript:void(0);" >Spring Boot</a></li>
+              <li><a href="javascript:void(0);" >Django</a></li>
+              <li><a href="javascript:void(0);" >Algorithm Notes</a></li>
+            </ul>
+          </div><!-- POPULAR TAGS WIDGET -->
+
+          <hr>
+
+        </div><!-- //SIDEBAR -->
+      </div><!-- //ROW -->
+    </div><!-- //CONTAINER -->
+  </section><!-- //BLOG -->
+
+
+  <!-- /Section: separator -->
+
+
+
+
+
+
+
+  <!-- Core JavaScript Files -->
+  <script>
+
+  applyChunk=(index,operation)=> {
+      if(index<1)operation=1;
+      var redValue=index % 100;
+
+      var orangeValue=(redValue+30)%100;
+      if(orangeValue==99)operation=-1;
+      document.getElementsByClassName("breadcrumbs_block")[0].style.background="linear-gradient(45deg, #FE6B8B "+redValue+"%, #FF8E53 "+orangeValue+"% )";
+      window.setTimeout(() => {index+=operation;this.applyChunk(index,operation)}, 50);
+  }
+
+  applyChunk(0,1);
+
+  </script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/stellar.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/nivo-lightbox.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+  <script type="text/javascript">
+      var Ajax = function ()
+      {
+          $.getJSON ("demo.json", function (data)
+          {
+              $.each (data, function (i, item)
+              {
+                 console.log(item.name);
+              });
+          });
+      }();
+  </script>
+</body>
+
+</html>
