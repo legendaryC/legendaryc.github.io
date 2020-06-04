@@ -1,6 +1,6 @@
 /* breadcrumbs_block intro
 separator home separator breadcrumbs_block_1
-navbar collapse
+navbar collapse intro page-scroll
     Theme Name: Lonely  separator
     Theme URL: https://bootstrapmade.com/free-html-bootstrap-template-lonely/
     Author: BootstrapMade
@@ -316,23 +316,30 @@ hr {
 	background-size: cover;
     height: 100%;
 }
-
+/*
 #intro.intro {
 	padding:200px 0 150px 0;
 }
-
+*/
 .intro .slogan {
 	text-align: center;
 
 }
 
+
+
 .intro .page-scroll {
-	text-align: center;
+    text-align: center;
+    
+}
+.intro .page-scroll :hover {
+    text-align: center;
+    text-decoration: underline;
 }
 
 
 .intro .page-scroll a {
-	color:#adadad;
+	color:#f8f5f5;
 }
 
 .brand-heading {
@@ -1154,6 +1161,11 @@ a.btn:hover {
     #about{
     padding-top:51px;
 }
+#viceTitleDiv{
+    padding:  10% 0px;
+     float: bottom;
+     text-align: center;
+   }
     .container {padding-left:15px; padding-right:15px;}
 
 
@@ -1414,7 +1426,11 @@ a.btn:hover {
 
     #search-form input:focus {width:42px;}
 
-
+    #viceTitleDiv{
+        margin:  10%;
+         float: bottom;
+         text-align: center;
+       }
 /* __________ Menu __________ */
     .navmenu ul li a {padding-left:10px; padding-right:10px; font-size:12px;}
 
