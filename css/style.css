@@ -316,17 +316,36 @@ hr {
 	background-size: cover;
     height: 100%;
 }
-/*
-#intro.intro {
-	padding:200px 0 150px 0;
+
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-*/
+
 .intro .slogan {
 	text-align: center;
 
 }
+#mainTitle {
+    font-size: 10vw;
+}
+#viceTitle{
+    font-size: 5vw;
+}
 
+#learn-more {
+    font-size: 3vw;
+}
 
+#mainTitleDiv {
+    padding-bottom:3vw ;
+    text-align: center;
+        }
+        #viceTitleDiv{
+            padding:  2vw 0;
+            text-align: center;
+        }
 
 .intro .page-scroll {
     text-align: center;
@@ -1115,6 +1134,15 @@ a.btn:hover {
 /* Media queries */
 
 @media (max-width:768px) {
+    #learn-more {
+        font-size: 5vh;
+    }
+    #mainTitle {
+        font-size: 15vh;
+    }
+    #viceTitle{
+        font-size: 10vh;
+    }
 	.navbar-header .fa {
 		color: #000;
 	}
@@ -1138,6 +1166,9 @@ a.btn:hover {
 #about{
     padding-top:51px;
 }
+#learn-more {
+    font-size: 5vh;
+}
 	.navbar-custom .nav.navbar-nav {
     background-color: rgba(255,255,255,.4);
 	}
@@ -1160,6 +1191,12 @@ a.btn:hover {
 @media (max-width: 767px) {
     #about{
     padding-top:51px;
+}
+#mainTitle {
+    font-size: 15vh;
+}
+#viceTitle{
+    font-size: 10vh;
 }
 #viceTitleDiv{
     padding:  10% 0px;
@@ -1422,8 +1459,15 @@ a.btn:hover {
 
 @media (min-width: 768px) and (max-width: 991px) {
     .logo a {font-size:22px;}
-
-
+    #learn-more {
+        font-size: 5vh;
+    }
+    #mainTitle {
+        font-size: 15vh;
+    }
+    #viceTitle{
+        font-size: 10vh;
+    }
     #search-form input:focus {width:42px;}
 
     #viceTitleDiv{
@@ -1524,8 +1568,22 @@ a.btn:hover {
 @media (max-width: 479px) {
 
     #search-form {display:none;}
+    #learn-more {
+        font-size: 5vh;
+    }
+    #mainTitle {
+        font-size: 10vh;
+    }
+    #viceTitle{
+        font-size: 6vh;
+    }
 
-
+    #mainTitleDiv {
+padding-bottom:4vh ;
+    }
+    #viceTitleDiv{
+        padding:  3vh 0;
+    }
 /* __________ Index __________ */
     h2 {font-size:26px; line-height:26px;}
 
