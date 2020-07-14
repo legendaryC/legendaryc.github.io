@@ -22,6 +22,16 @@ body {
 	line-height: 1.6em;
     background-color: #fff;
 }
+.home-title{
+    font-size: 72px;
+     margin-left: 25%;
+     
+     width:50%;
+     text-align:center;
+     background: -webkit-linear-gradient(0deg, #d42a74, #FF8E53 90%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;z-index:1;
+   }
 
 html {
     width: 100%;
@@ -1556,6 +1566,9 @@ a.btn:hover {
 
 
 @media (max-width: 479px) {
+    .home-title{
+        font-size: 48px;
+    }
 
     #search-form {display:none;}
     #learn-more {
