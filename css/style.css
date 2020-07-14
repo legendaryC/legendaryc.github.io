@@ -1,7 +1,7 @@
 /* breadcrumbs_block intro
 separator home separator breadcrumbs_block_1
-navbar collapse intro page-scroll
-    Theme Name: Lonely  separator
+navbar collapse intro page-scroll 
+    Theme Name: Lonely  separator page Scroll
     Theme URL: https://bootstrapmade.com/free-html-bootstrap-template-lonely/
     Author: BootstrapMade
     Author URL: https://bootstrapmade.com headOfBREADCRUMBS
@@ -308,25 +308,14 @@ hr {
 /* ===========================
 --- Intro home-section interests
 ============================ */
-
 .intro {
-	width:100%;
-	position:relative;
-	background: url(../img/bg1.jpg) no-repeat top center;
-	background-size: cover;
-    height: 100%;
+    height: auto;
+    min-height: 100%;
+    
 }
 
-#intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.intro .slogan {
-	text-align: center;
 
-}
 #mainTitle {
     font-size: 10vw;
 }
@@ -349,6 +338,7 @@ hr {
 
 .intro .page-scroll {
     text-align: center;
+    padding-bottom: 10%;
     
 }
 .intro .page-scroll :hover {
