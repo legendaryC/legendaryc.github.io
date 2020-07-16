@@ -1668,13 +1668,16 @@ a.btn:hover {
 
 
 @media (max-width: 479px) {
+
+
+
     .home-title{
         font-size: 48px;
          margin-left: 23%;
          
          width:54%;
          text-align:center;
-         background: -webkit-linear-gradient(0deg, #d42a74, #FF8E53 90%);
+         background: -webkit-linear-gradient(0deg, #ff1744 10%, #2196F3);
          -webkit-background-clip: text;
          -webkit-text-fill-color: transparent;z-index:1;
        }
