@@ -60,7 +60,7 @@ font-family: 'Bangers', cursive;
 
 }
 #post_item_img_widget{
-  width: 100%;
+  max-width: 100%;
 }
 
 #c-button{
