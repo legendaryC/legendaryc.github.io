@@ -1669,7 +1669,9 @@ a.btn:hover {
 
 @media (max-width: 479px) {
 
-
+#sub-title{
+    font-size: 72px;
+}
 
     .home-title{
         font-size: 48px;
