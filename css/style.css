@@ -238,7 +238,7 @@ img.img-responsive {
 	font-size: 14px;
 	letter-spacing: 1px;
     color: #444;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-weight: 700;
 }
 
